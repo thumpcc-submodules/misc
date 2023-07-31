@@ -1,0 +1,39 @@
+---
+# https://docutils.sourceforge.io/docs/ref/rst/directives.txt
+ReST:
+  shortcut: 817 # Ctrl + Shift + 1
+
+  clips   :
+
+    # https://docutils.sourceforge.io/docs/ref/rst/directives.html#admonition
+    directive_admonition_attention: ".. attention::"
+    directive_admonition_caution  : ".. caution::"
+    directive_admonition_danger   : ".. danger::"
+    directive_admonition_error    : ".. error::"
+    directive_admonition_hint     : ".. hint::"
+    directive_admonition_important: ".. important::"
+    directive_admonition_note     : ".. note::"
+    directive_admonition_tip      : ".. tip::"
+    directive_admonition_warning  : ".. warning::"
+
+    # https://docutils.sourceforge.io/docs/ref/rst/directives.html#images
+    directive_image               : |
+      .. image:: picture.jpg
+          :alt: text
+          :height: length
+          :width: length or percentage of the current line width
+          :scale: integer percentage (the "%" symbol is optional)
+          :align: "top", "middle", "bottom", "left", "center", or "right"
+          :target: text (URI or reference name)
+
+    # https://docutils.sourceforge.io/docs/ref/rst/directives.html#figure
+    directive_figure: |
+      .. figure:: picture.png
+          :alt: text
+          :height: length
+          :width: length or percentage of the current line width
+          :scale: integer percentage (the "%" symbol is optional)
+          :align: "left", "center", or "right"
+          :target: text (URI or reference name)
+          :figwidth: "image", length, or percentage of current line width
+          :figclass: text

@@ -1,0 +1,7 @@
+# Finance
+
+```{toctree} 
+:glob:
+
+*/index
+```
